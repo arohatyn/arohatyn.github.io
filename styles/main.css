@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* border: 1px solid pink; */
+}
+.flex{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    align-items: center;
+}
+.links{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    align-items: center;
+}
+.toplist{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+li{
+    display: inline-block;
+    margin: .3em;
+}
+.list-item{
+    float: left;
+    clear: left;
+}
+.img{
+    width: 25%;
+}
+.me{
+    display: inline;
+    height: 80%;
+    width: 80%;
+}
+.text{
+    display: inline-block;
+    width: 55%;
+}
+a{
+    text-decoration: none;
+}
+.Email{
+    color: #6BDE43
+}
+.LinkedIn{
+    color: #003DD9;
+}
+.Twitter{
+    color: #D32929;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.gif{
+    width: 25%;
+    text-align: center;
+}
+.bottom1, .bottom2{
+    width: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bottom-links{
+    width: 55%;
+    display: flex;
+}
+.footer-link{
+    font-size: 2em;
+    color: black;
+}
+p{
+    margin-top: 1em;
+    width: 50%;
+    padding: .5em 0em;
+    background-color: #6A9FD0;
+}
+.bow-container{
+    width: 20%;
+}
+.bow{
+    transform: rotate(-90deg);
+    width: 100%;
+    height: 100%;
+    display: inline;
+}
+@media only screen and (max-width: 600px){
+    h3{font-size: 1.5em; line-height: 1em;}
+    h1{font-size: 2.8em; line-height: 1.4em;}
+    .footer-link{font-size: 1em;}
+    li{font-size: 1em;}
+}
+/* for small devices */
+@media only screen and (min-width: 600px){
+    h3{font-size: 1.7em; line-height: 1em;}
+    h1{font-size: 3.3em; line-height: 1.6em;}
+    .footer-link{font-size: 1.25em;}
+    li{font-size: 1.25em;}
+}
+/* for medium sized devices */
+@media only screen and (min-width: 768px){
+    h3{font-size: 2em; line-height: 1em;}
+    h1{font-size: 3.9em; line-height: 1.8em;}
+    .footer-link{font-size: 1.5em;}
+    li{font-size: 1.5em;}
+}
+/* for large devices */
+@media only screen and (min-width: 992px){
+    h3{font-size: 2.3em; line-height: 1.15em;}
+    h1{font-size: 4.5em; line-height: 1.9em;}
+    .footer-link{font-size: 1.75em;}
+    li{font-size: 1.75em;}
+}
+/* for extra large devices */
+@media only screen and (min-width: 1200px){
+    h3{font-size: 2.8em; line-height: 1.3em;}
+    h1{font-size: 5em; line-height: 2em;}
+    .footer-link{font-size: 2em;}
+    li{font-size: 2em;}
+}
