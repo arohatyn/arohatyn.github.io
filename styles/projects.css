@@ -42,6 +42,7 @@
     margin: 0px;
     box-sizing: border-box;
 }
+/* Class Selectors */
 .container{
     min-height: 100vh;
     padding-top: 2vh;
@@ -106,6 +107,9 @@
 .warn2{width: 20%;}
 .main-text{margin-top: 1em;}
 .home{text-align: center; margin-top: 1em;}
+
+/* Tag Selectors */
+
 a{text-decoration: none; font-size: large;}
 
 /* for very small devices */
